@@ -1,6 +1,9 @@
 # tp2eva3
 ## Descripcion
 Realizar test JUnit sobre un proyecto Maven que incluye una clase basica (math.java) con un metodo que realiza una suma, y un test (testMath.java) que verifica la validez de la clase.
+## Ejecutando los tests mediante maven
+Una vez realizado *git clone* del proyecto, puedes ejecutar desde el raíz,
+    $ mvn -Dtest=testMath test       
 ## Pasos para realizar el test JUnit en eclipse
 1. crear un nuevo proyecto Maven
 2. incorporar a src/main la clase Math.java

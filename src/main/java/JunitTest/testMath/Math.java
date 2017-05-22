@@ -16,8 +16,8 @@ public class Math {
 		return a+b;
 	}
 	
-	public int mult(int a,int b){
-		return a*b
+	public int mult(){
+		return a*b;
 	}
 	
 

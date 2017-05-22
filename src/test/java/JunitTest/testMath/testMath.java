@@ -18,7 +18,7 @@ import org.junit.Test;
     @Test
     public void testNegativePositiveAddition() {
         math = new Math(-7, 14);
-        Assert.assertEquals(71, math.add());
+        Assert.assertEquals(7, math.add());
     }
 
 
@@ -31,5 +31,10 @@ import org.junit.Test;
     @Test
     public void testAdd() {
         Assert.assertEquals(17, math.add());
+    } 
+
+    @Test
+    public void testMult() {
+        Assert.assertEquals(70, math.mult());
     } 
 }
